@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.zip
+qwen_latexocr_mathwriting_sft/checkpoint-*/

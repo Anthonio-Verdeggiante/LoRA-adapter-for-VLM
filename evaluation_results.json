@@ -1,0 +1,528 @@
+{
+  "zero_shot": {
+    "status": "completed",
+    "exact_match": 0.0,
+    "normalized_edit_distance": 0.2257,
+    "predictions": [],
+    "references": [],
+    "rows": []
+  },
+  "one_shot": {
+    "status": "completed",
+    "exact_match": 0.0857,
+    "normalized_edit_distance": 0.2084,
+    "predictions": [],
+    "references": [],
+    "rows": []
+  },
+  "sft_latex_ocr": {
+    "status": "not_run",
+    "reason": "No separate trained adapter is available for `SFT using linxy/LaTeX_OCR:train`. The folder `qwen_latexocr_sft` was empty, and the available checkpoints belong to the combined training run only.",
+    "exact_match": null,
+    "normalized_edit_distance": null,
+    "predictions": [],
+    "references": [],
+    "rows": []
+  },
+  "sft_combined": {
+    "status": "completed",
+    "exact_match": 0.17142857142857143,
+    "normalized_edit_distance": 0.45099548159551855,
+    "predictions": [
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}\\,",
+      "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{sin2\\alpha}{cos2\\alpha}=\\frac{sin\\alpha}{cos\\alpha}tan\\alpha.",
+      "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{(-1)^{3}+1}{-1+1}=0.",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...=e-1\\approx1.71828...,e=\\sum_{n=0}^{\\infty}\\frac{1}{n!}=\\lim_{n\\rightarrow\\infty}\\left(1+\\frac{1}{n}\\right)^{n}=\\lim_{n\\rightarrow\\infty}\\frac{n^{n}}{n!}=\\lim_{n\\rightarrow\\infty}\\frac{1}{",
+      "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty.",
+      "\\int(2^{x}-3e^{x})dx.",
+      "\\frac{1}{a}F(ax+b)+C",
+      "\\frac{SinB+SinC}{CosB+CosC}=\\frac{2}{3}+\\frac{1}{3}tan(\\frac{B+C}{2})=\\frac{4}{3}tan(\\frac{A}{2})>1,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0.",
+      "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta\\,",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~",
+      "\\frac{sin\\theta+cos\\theta+tan\\theta}{x+y+z}",
+      "lim_{x\\rightarrow\\frac{1}{4}}\\frac{-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4",
+      "\\pi_{1}+\\pi_{2}=\\pi_{3}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "x_{i}-x_{i+1}+x_{i+2}~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}.",
+      "\\frac{sin\\theta+cos\\theta+tan\\theta}{x+y+z}",
+      "(x^{3}-x^{2}-1)(2x-7)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot",
+      "a+b+c+d+e",
+      "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "(x^{3}-x^{2}-x)(2x-7)~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "log_{2}8+log_{3}9+log_{4}16.",
+      "sin(x-siny)-sin(x-y)~\\cdot~sin(x+y)~+~cos(x-siny)~\\cdot~cos(x+y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x",
+      "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}",
+      "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{2sin\\alpha}{cos\\alpha}=\\frac{2}{sec\\alpha}tan\\alpha=2ctg\\alpha",
+      "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{(-1)^{3}+1}{-1+1}=0.",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+",
+      "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty",
+      "\\int(2^{x}-3e^{x})dx.",
+      "\\frac{1}{a}F(ax+b)+C",
+      "\\frac{SinB+SinC}{CosB+CosC}=\\frac{2}{3}+\\frac{1}{3}(\\frac{SinB}{CosB}+\\frac{SinC}{CosC})=\\frac{2}{3}+\\frac{1}{3}tanB+\\frac{1}{3}tanC.",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot",
+      "\\alpha_{n+1}^{-3}\\beta=\\frac{2}{3}\\alpha_{n}+\\beta^{-3}\\beta^{-1}+\\beta^{-4}+\\cdots+\\beta^{-n-1}+\\beta^{-n-2}+\\beta^{-n-3}+\\beta^{-n}+\\beta^{-n+1}+\\cdots+\\beta^{-1}+\\beta^{0}+\\beta^{1}+\\cdots+\\beta^{n-1}+\\beta^{n}+\\beta^{n+1}+\\cdots+\\beta^{2n-1}+\\beta^{2n",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~",
+      "lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{4}+\\frac{1}{4^{2}}+\\frac{1}{4^{3}}+...=\\frac{1}{4}\\cdot\\frac{1}{1-4x}=\\frac{1}{4(1-4x)}=\\frac{1}{4}+\\frac{1}{4^{2}}+\\frac{1}{4^{3}}+...=1/4+1/16+1",
+      "x_{1}+x_{2}=x_{3}",
+      "x_{i}-x_{i+1}+x_{i+2}~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}.",
+      "\\frac{Sin\\theta+Cos\\theta+tan\\theta}{x+y+z}",
+      "(\\lambda^{3}-\\lambda^{2}-\\lambda)(2\\lambda-\\gamma)~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\",
+      "a+b+c+d+e",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~",
+      "a+b+c+d+e\\,",
+      "\\chi_{i+2}\\timesk^{3}-2\\frac{j}{i}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\",
+      "log_{2}8+log_{3}9+log_{4}16.",
+      "sinx-siny-sin(x-y)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\",
+      "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}",
+      "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{2}{sec^{2}\\alpha}-tan\\alpha=sec\\alpha-cot\\alpha.",
+      "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{2}{0}=\\infty.",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+",
+      "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty.",
+      "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,",
+      "\\int(2^{x}-3e^{x})dx.",
+      "\\frac{1}{a}F(ax+b)+C",
+      "\\frac{sinB+sinC}{cosB+cosC}=\\frac{1}{2}+\\frac{tan\\frac{B+C}{2}}{2}=\\frac{1}{2}+\\frac{tan\\frac{\\pi}{4}}{2}=\\frac{3}{4}+\\frac{1}{2}tan\\frac{\\pi}{4}=\\frac{5}{4}+\\frac{1}{2}tan\\frac{\\pi}{4}=\\frac{5}{4}+\\frac{1}{2}\\cdot1=\\frac{5}{4}+\\frac{",
+      "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~",
+      "lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{2}+\\frac{1}{8}=\\frac{5}{8}=\\frac{1}{16}+\\frac{1}{8}+\\frac{1}{16}=\\frac{7}{16}+\\frac{1}{16}=\\frac{8}{16}=\\frac{1}{2}=\\frac{1}{2}+0=\\frac{1}{2}+0=0",
+      "x_{1}+x_{2}=x_{3}",
+      "x_{i}-x_{i+1}+x_{i+2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot",
+      "\\sqrt{b^{2}-4ac}",
+      "log_{2}8+log_{3}9+log_{4}16\\,ln\\,x=0\\,ln\\,y\\,ln\\,z\\,ln\\,w\\,ln\\,v\\,ln\\,u\\,ln\\,t\\,ln\\,s\\,ln\\,r\\,ln\\,q\\,ln\\,p\\,ln\\,o\\,ln\\,n\\,ln\\,m\\,ln\\,l\\,ln\\,k\\,ln\\,j\\,ln\\,i",
+      "sinx-siny-sin(x-y)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\",
+      "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}"
+    ],
+    "references": [
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+      "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+      "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+      "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+      "\\int\\left(2^{x}-3e^{x}\\right)dx",
+      "\\frac{1}{a}F\\left(ax+b\\right)+C",
+      "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+      "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+      "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+      "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+      "x_{1}+x_{2}=x_{3}",
+      "x_{i}-x_{i+1}+x_{i+2}",
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+      "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+      "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+      "a+b+c+d+e",
+      "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+      "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+      "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+      "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+      "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}",
+      "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+      "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+      "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+      "\\int\\left(2^{x}-3e^{x}\\right)dx",
+      "\\frac{1}{a}F\\left(ax+b\\right)+C",
+      "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+      "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+      "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+      "x_{1}+x_{2}=x_{3}",
+      "x_{i}-x_{i+1}+x_{i+2}",
+      "\\sqrt{b^{2}-4ac}",
+      "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+      "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+      "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+      "a+b+c+d+e",
+      "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+      "a+b+c+d+e",
+      "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+      "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+      "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+      "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}",
+      "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+      "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+      "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+      "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+      "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+      "\\int\\left(2^{x}-3e^{x}\\right)dx",
+      "\\frac{1}{a}F\\left(ax+b\\right)+C",
+      "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+      "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+      "30\\times29x^{28}",
+      "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+      "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+      "x_{1}+x_{2}=x_{3}",
+      "x_{i}-x_{i+1}+x_{i+2}",
+      "\\sqrt{b^{2}-4ac}",
+      "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+      "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+      "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}"
+    ],
+    "rows": [
+      {
+        "index": 0,
+        "reference": "\\sqrt{b^{2}-4ac}",
+        "prediction": "\\sqrt{b^{2}-4ac}"
+      },
+      {
+        "index": 1,
+        "reference": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+        "prediction": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}\\,"
+      },
+      {
+        "index": 2,
+        "reference": "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+        "prediction": "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{sin2\\alpha}{cos2\\alpha}=\\frac{sin\\alpha}{cos\\alpha}tan\\alpha."
+      },
+      {
+        "index": 3,
+        "reference": "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+        "prediction": "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{(-1)^{3}+1}{-1+1}=0."
+      },
+      {
+        "index": 4,
+        "reference": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+        "prediction": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...=e-1\\approx1.71828...,e=\\sum_{n=0}^{\\infty}\\frac{1}{n!}=\\lim_{n\\rightarrow\\infty}\\left(1+\\frac{1}{n}\\right)^{n}=\\lim_{n\\rightarrow\\infty}\\frac{n^{n}}{n!}=\\lim_{n\\rightarrow\\infty}\\frac{1}{"
+      },
+      {
+        "index": 5,
+        "reference": "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+        "prediction": "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty."
+      },
+      {
+        "index": 6,
+        "reference": "\\int\\left(2^{x}-3e^{x}\\right)dx",
+        "prediction": "\\int(2^{x}-3e^{x})dx."
+      },
+      {
+        "index": 7,
+        "reference": "\\frac{1}{a}F\\left(ax+b\\right)+C",
+        "prediction": "\\frac{1}{a}F(ax+b)+C"
+      },
+      {
+        "index": 8,
+        "reference": "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+        "prediction": "\\frac{SinB+SinC}{CosB+CosC}=\\frac{2}{3}+\\frac{1}{3}tan(\\frac{B+C}{2})=\\frac{4}{3}tan(\\frac{A}{2})>1,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0.953,0.786<\\frac{A}{2}<0."
+      },
+      {
+        "index": 9,
+        "reference": "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+        "prediction": "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta\\,"
+      },
+      {
+        "index": 10,
+        "reference": "30\\times29x^{28}",
+        "prediction": "30\\times29x^{28}"
+      },
+      {
+        "index": 11,
+        "reference": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+        "prediction": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~"
+      },
+      {
+        "index": 12,
+        "reference": "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+        "prediction": "\\frac{sin\\theta+cos\\theta+tan\\theta}{x+y+z}"
+      },
+      {
+        "index": 13,
+        "reference": "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+        "prediction": "lim_{x\\rightarrow\\frac{1}{4}}\\frac{-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4}=\\frac{3}{4"
+      },
+      {
+        "index": 14,
+        "reference": "x_{1}+x_{2}=x_{3}",
+        "prediction": "\\pi_{1}+\\pi_{2}=\\pi_{3}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 15,
+        "reference": "x_{i}-x_{i+1}+x_{i+2}",
+        "prediction": "x_{i}-x_{i+1}+x_{i+2}~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 16,
+        "reference": "\\sqrt{b^{2}-4ac}",
+        "prediction": "\\sqrt{b^{2}-4ac}"
+      },
+      {
+        "index": 17,
+        "reference": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+        "prediction": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}."
+      },
+      {
+        "index": 18,
+        "reference": "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+        "prediction": "\\frac{sin\\theta+cos\\theta+tan\\theta}{x+y+z}"
+      },
+      {
+        "index": 19,
+        "reference": "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+        "prediction": "(x^{3}-x^{2}-1)(2x-7)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\"
+      },
+      {
+        "index": 20,
+        "reference": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+        "prediction": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot"
+      },
+      {
+        "index": 21,
+        "reference": "a+b+c+d+e",
+        "prediction": "a+b+c+d+e"
+      },
+      {
+        "index": 22,
+        "reference": "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+        "prediction": "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 23,
+        "reference": "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+        "prediction": "(x^{3}-x^{2}-x)(2x-7)~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 24,
+        "reference": "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+        "prediction": "log_{2}8+log_{3}9+log_{4}16."
+      },
+      {
+        "index": 25,
+        "reference": "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+        "prediction": "sin(x-siny)-sin(x-y)~\\cdot~sin(x+y)~+~cos(x-siny)~\\cdot~cos(x+y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x+y)~\\cdot~cos(x-y)~+~sin(x+y)~\\cdot~sin(x-y)~+~cos(x"
+      },
+      {
+        "index": 26,
+        "reference": "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}",
+        "prediction": "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}"
+      },
+      {
+        "index": 27,
+        "reference": "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+        "prediction": "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{2sin\\alpha}{cos\\alpha}=\\frac{2}{sec\\alpha}tan\\alpha=2ctg\\alpha"
+      },
+      {
+        "index": 28,
+        "reference": "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+        "prediction": "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{(-1)^{3}+1}{-1+1}=0."
+      },
+      {
+        "index": 29,
+        "reference": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+        "prediction": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+"
+      },
+      {
+        "index": 30,
+        "reference": "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+        "prediction": "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty"
+      },
+      {
+        "index": 31,
+        "reference": "\\int\\left(2^{x}-3e^{x}\\right)dx",
+        "prediction": "\\int(2^{x}-3e^{x})dx."
+      },
+      {
+        "index": 32,
+        "reference": "\\frac{1}{a}F\\left(ax+b\\right)+C",
+        "prediction": "\\frac{1}{a}F(ax+b)+C"
+      },
+      {
+        "index": 33,
+        "reference": "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+        "prediction": "\\frac{SinB+SinC}{CosB+CosC}=\\frac{2}{3}+\\frac{1}{3}(\\frac{SinB}{CosB}+\\frac{SinC}{CosC})=\\frac{2}{3}+\\frac{1}{3}tanB+\\frac{1}{3}tanC."
+      },
+      {
+        "index": 34,
+        "reference": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+        "prediction": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot"
+      },
+      {
+        "index": 35,
+        "reference": "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+        "prediction": "\\alpha_{n+1}^{-3}\\beta=\\frac{2}{3}\\alpha_{n}+\\beta^{-3}\\beta^{-1}+\\beta^{-4}+\\cdots+\\beta^{-n-1}+\\beta^{-n-2}+\\beta^{-n-3}+\\beta^{-n}+\\beta^{-n+1}+\\cdots+\\beta^{-1}+\\beta^{0}+\\beta^{1}+\\cdots+\\beta^{n-1}+\\beta^{n}+\\beta^{n+1}+\\cdots+\\beta^{2n-1}+\\beta^{2n"
+      },
+      {
+        "index": 36,
+        "reference": "30\\times29x^{28}",
+        "prediction": "30\\times29x^{28}"
+      },
+      {
+        "index": 37,
+        "reference": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+        "prediction": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~\\!~"
+      },
+      {
+        "index": 38,
+        "reference": "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+        "prediction": "lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{4}+\\frac{1}{4^{2}}+\\frac{1}{4^{3}}+...=\\frac{1}{4}\\cdot\\frac{1}{1-4x}=\\frac{1}{4(1-4x)}=\\frac{1}{4}+\\frac{1}{4^{2}}+\\frac{1}{4^{3}}+...=1/4+1/16+1"
+      },
+      {
+        "index": 39,
+        "reference": "x_{1}+x_{2}=x_{3}",
+        "prediction": "x_{1}+x_{2}=x_{3}"
+      },
+      {
+        "index": 40,
+        "reference": "x_{i}-x_{i+1}+x_{i+2}",
+        "prediction": "x_{i}-x_{i+1}+x_{i+2}~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 41,
+        "reference": "\\sqrt{b^{2}-4ac}",
+        "prediction": "\\sqrt{b^{2}-4ac}"
+      },
+      {
+        "index": 42,
+        "reference": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}",
+        "prediction": "\\sqrt{x-y-z+x^{2}+y^{2}+z^{2}}."
+      },
+      {
+        "index": 43,
+        "reference": "\\frac{\\sin\\theta+\\cos\\theta+\\tan\\theta}{x+y+z}",
+        "prediction": "\\frac{Sin\\theta+Cos\\theta+tan\\theta}{x+y+z}"
+      },
+      {
+        "index": 44,
+        "reference": "\\left(x^{3}-x^{2}-x\\right)\\left(2x-7\\right)",
+        "prediction": "(\\lambda^{3}-\\lambda^{2}-\\lambda)(2\\lambda-\\gamma)~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\"
+      },
+      {
+        "index": 45,
+        "reference": "a+b+c+d+e",
+        "prediction": "a+b+c+d+e"
+      },
+      {
+        "index": 46,
+        "reference": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}",
+        "prediction": "x_{1}-x_{2}+y_{1}-y_{2}+z_{1}-z_{2}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~"
+      },
+      {
+        "index": 47,
+        "reference": "a+b+c+d+e",
+        "prediction": "a+b+c+d+e\\,"
+      },
+      {
+        "index": 48,
+        "reference": "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+        "prediction": "\\chi_{i+2}\\timesk^{3}-2\\frac{j}{i}~.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\"
+      },
+      {
+        "index": 49,
+        "reference": "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+        "prediction": "log_{2}8+log_{3}9+log_{4}16."
+      },
+      {
+        "index": 50,
+        "reference": "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+        "prediction": "sinx-siny-sin(x-y)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\"
+      },
+      {
+        "index": 51,
+        "reference": "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}",
+        "prediction": "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}"
+      },
+      {
+        "index": 52,
+        "reference": "\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}",
+        "prediction": "\\frac{2tan\\alpha}{1-tan^{2}\\alpha}=\\frac{2}{sec^{2}\\alpha}-tan\\alpha=sec\\alpha-cot\\alpha."
+      },
+      {
+        "index": 53,
+        "reference": "\\lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}",
+        "prediction": "lim_{x\\rightarrow-1}\\frac{x^{3}+1}{x+1}=\\frac{2}{0}=\\infty."
+      },
+      {
+        "index": 54,
+        "reference": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}",
+        "prediction": "1+\\frac{1}{1!}+\\frac{1}{2!}+\\frac{1}{3!}+\\frac{1}{4!}+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+"
+      },
+      {
+        "index": 55,
+        "reference": "\\lim_{x\\rightarrow\\frac{\\pi}{2}+0}\\tanx=-\\infty",
+        "prediction": "lim_{x\\rightarrow\\frac{\\pi}{2}+0}tanx=-\\infty."
+      },
+      {
+        "index": 56,
+        "reference": "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}",
+        "prediction": "x^{i+2j\\timesk^{3}-2\\frac{j}{i}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,"
+      },
+      {
+        "index": 57,
+        "reference": "\\int\\left(2^{x}-3e^{x}\\right)dx",
+        "prediction": "\\int(2^{x}-3e^{x})dx."
+      },
+      {
+        "index": 58,
+        "reference": "\\frac{1}{a}F\\left(ax+b\\right)+C",
+        "prediction": "\\frac{1}{a}F(ax+b)+C"
+      },
+      {
+        "index": 59,
+        "reference": "\\frac{\\sinB+\\sinC}{\\cosB+\\cosC}",
+        "prediction": "\\frac{sinB+sinC}{cosB+cosC}=\\frac{1}{2}+\\frac{tan\\frac{B+C}{2}}{2}=\\frac{1}{2}+\\frac{tan\\frac{\\pi}{4}}{2}=\\frac{3}{4}+\\frac{1}{2}tan\\frac{\\pi}{4}=\\frac{5}{4}+\\frac{1}{2}tan\\frac{\\pi}{4}=\\frac{5}{4}+\\frac{1}{2}\\cdot1=\\frac{5}{4}+\\frac{"
+      },
+      {
+        "index": 60,
+        "reference": "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta",
+        "prediction": "\\alpha_{n+1}-3\\beta=\\frac{2}{3}\\alpha_{n}+\\beta-3\\beta"
+      },
+      {
+        "index": 61,
+        "reference": "30\\times29x^{28}",
+        "prediction": "30\\times29x^{28}"
+      },
+      {
+        "index": 62,
+        "reference": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}",
+        "prediction": "\\sqrt{1+\\sqrt{2+\\sqrt{3+\\sqrt{4}}}}.~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~\\,~"
+      },
+      {
+        "index": 63,
+        "reference": "\\lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}",
+        "prediction": "lim_{x\\rightarrow\\frac{1}{4}}\\frac{1-4^{x-\\frac{1}{4}}}{1-4x}=\\frac{1}{2}+\\frac{1}{8}=\\frac{5}{8}=\\frac{1}{16}+\\frac{1}{8}+\\frac{1}{16}=\\frac{7}{16}+\\frac{1}{16}=\\frac{8}{16}=\\frac{1}{2}=\\frac{1}{2}+0=\\frac{1}{2}+0=0"
+      },
+      {
+        "index": 64,
+        "reference": "x_{1}+x_{2}=x_{3}",
+        "prediction": "x_{1}+x_{2}=x_{3}"
+      },
+      {
+        "index": 65,
+        "reference": "x_{i}-x_{i+1}+x_{i+2}",
+        "prediction": "x_{i}-x_{i+1}+x_{i+2}~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot"
+      },
+      {
+        "index": 66,
+        "reference": "\\sqrt{b^{2}-4ac}",
+        "prediction": "\\sqrt{b^{2}-4ac}"
+      },
+      {
+        "index": 67,
+        "reference": "\\log_{2}8+\\log_{3}9+\\log_{4}16",
+        "prediction": "log_{2}8+log_{3}9+log_{4}16\\,ln\\,x=0\\,ln\\,y\\,ln\\,z\\,ln\\,w\\,ln\\,v\\,ln\\,u\\,ln\\,t\\,ln\\,s\\,ln\\,r\\,ln\\,q\\,ln\\,p\\,ln\\,o\\,ln\\,n\\,ln\\,m\\,ln\\,l\\,ln\\,k\\,ln\\,j\\,ln\\,i"
+      },
+      {
+        "index": 68,
+        "reference": "\\sinx-\\siny-\\sin\\left(x-y\\right)",
+        "prediction": "sinx-siny-sin(x-y)~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\cdot~\\"
+      },
+      {
+        "index": 69,
+        "reference": "\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}",
+        "prediction": "\\frac{tan\\alpha-tan\\beta}{1+tan\\alphatan\\beta}"
+      }
+    ]
+  }
+}
