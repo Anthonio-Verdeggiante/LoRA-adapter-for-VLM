@@ -5,3 +5,4 @@ __pycache__/
 *.pyd
 *.zip
 qwen_latexocr_mathwriting_sft/checkpoint-*/
+anaconda_projects/
